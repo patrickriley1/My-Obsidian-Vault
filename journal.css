@@ -1,0 +1,228 @@
+:root {
+  --highlight: #ffffff;
+  --primary: #9266ff;
+  --dark: #06040e;
+  --darkAlt: #160c25;
+}
+
+.daily {
+  --dark: var(--dark);
+  color: var(--highlight);
+  background-color: var(--dark);
+  --text-normal: var(--highlight);
+  --text-muted: var(--highlight);
+  --text-faint: var(--highlight);
+  --checklist-done-color: var(--highlight);
+  --metadata-label-text-color: var(--highlight);
+  --metadata-input-text-color: var(--highlight);
+  --tag-color: var(--dark);
+  --tag-background: var(--primary);
+  --hr-color: var(--primary);
+  --blockquote-border-color: var(--primary);
+  --interactive-accent: var(--primary);
+  --collapse-icon-color-collapsed: var(--primary);
+  --checkbox-color: var(--primary);
+  --checkbox-marker-color: var(--dark);
+  --checkbox-color-hover: var(--highlight);
+  --checkbox-border-color: var(--highlight);
+  --list-marker-color: var(--highlight);
+  --code-background: black;
+  --code-normal: var(--primary);
+  --link-decoration: none;
+  --link-decoration-hover: none;
+
+  --background-modifier-border-focus: var(--primary);
+  --background-modifier-border: color-mix(in srgb, var(--highlight) 60%, transparent);
+  --background-modifier-hover: color-mix(in srgb, var(--highlight) 60%, transparent);
+  --pill-cover-hover: color-mix(in srgb, var(--highlight) 60%, transparent);
+}
+
+
+.sunday, .Sunday {
+  --highlight: #f39caa;
+  --primary: #f6466f;
+  --dark: #2d0916;
+}
+.monday, .Monday {
+  --highlight: #fcadaa;
+  --primary: #f65848;
+  --dark: #3c0e0b;
+}
+.tuesday, .Tuesday {
+  --highlight: #aedbfa;
+  --primary: #3b87f0;
+  --dark: #070615;
+}
+.wednesday, .Wednesday {
+  --highlight: #fff3c4;
+  --primary: #ffd63d;
+  --dark: #2c1404;
+}
+.thursday, .Thursday {
+  --highlight: #f7b79b;
+  --primary: #ed6022;
+  --dark: #210b04;
+}
+.friday, .Friday {
+  --highlight: #e9f9b7;
+  --primary: #92e649;
+  --dark: #192108;
+}
+.saturday, .Saturday{
+  --highlight: #f39caa;
+  --primary: #e22c3c;
+  --dark: #100305;
+}
+
+.daily :is(h1, .HyperMD-header.HyperMD-header-1) {
+  color: var(--primary);
+  text-align: center;
+  font-size: 60px;
+  font-family: "Bai Jamjuree", "JetBrainsMono Nerd Font Mono", "JetBrains Mono";
+  padding: 0 !important;
+}
+.daily :is(h2, .HyperMD-header.HyperMD-header-2) {
+  color: var(--highlight);
+  text-align: center;
+  font-size: 30px;
+  font-family: "Bai Jamjuree", "JetBrainsMono Nerd Font Mono", "JetBrains Mono";
+  font-style: italic;
+  padding: 0 !important;
+}
+
+.daily :is(h3, .HyperMD-header.HyperMD-header-3) {
+  color: var(--primary);
+  text-align: center;
+
+  font-size: 32px;
+  font-family: "Bai Jamjuree", "JetBrainsMono Nerd Font Mono", "JetBrains Mono";
+  padding-top: 0;
+}
+.daily :is(h4, .HyperMD-header.HyperMD-header-4) {
+  background-color: var(--primary);
+  color: var(--dark);
+  /* border-color: var(--primary); */
+  /* font-family: "JetBrainsMono Nerd Font Mono", "JetBrains Mono", monospace; */
+  font-weight: 900;
+  margin-bottom: 0;
+  padding-top: 0;
+  font-size: 20px;
+  width: fit-content;
+  padding-left: 6px;
+  padding-right: 6px;
+  /* border: solid; */
+  border-radius: 8px;
+  /* border-width: 2px; */
+  word-wrap: normal;
+}
+.daily p {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+.daily :is(a:link, .cm-hmd-internal-link) {
+  color: var(--primary);
+  text-decoration: none !important;
+}
+.daily :is(a:hover, .cm-hmd-internal-link:hover) {
+  color: var(--highlight);
+}
+
+.daily :is(p, .cm-hmd-indented-code.cm-inline-code) {
+  color: var(--primary);
+  background-color: var(--darkAlt);
+}
+.daily hr {
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+}
+
+.daily img {
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* Remove internal-link underline styling in daily notes */
+.markdown-source-view.mod-cm6.daily .cm-hmd-internal-link,
+.markdown-preview-view.daily a.internal-link {
+  text-decoration: none !important;
+  background-image: none !important;
+  box-shadow: none !important;
+  border-bottom: none !important;
+}
+
+
+:is(.sunday, .Sunday,
+.monday, .Monday,
+.tuesday, .Tuesday,
+.wednesday, .Wednesday,
+.thursday, .Thursday,
+.friday, .Friday,
+.saturday, .Saturday
+  )
+  svg {
+  color: color-mix(in srgb, var(--highlight) 60%, transparent);
+}
+
+/* ---------- Daily note two-column layout ---------- */
+
+.daily .daily-layout {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 2rem;
+  width: 100%;
+}
+
+.daily .daily-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  flex: 0 0 42%;
+  min-width: 0;
+}
+
+.daily .daily-right {
+  flex: 0 0 54%;
+  min-width: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.daily .daily-right .internal-embed,
+.daily .daily-right .markdown-embed,
+.daily .daily-right .markdown-embed-content,
+.daily .daily-right .cm-embed-block {
+  width: 100%;
+  max-width: 100%;
+}
+
+.daily .daily-left :is(h1, .HyperMD-header.HyperMD-header-1),
+.daily .daily-left :is(h2, .HyperMD-header.HyperMD-header-2),
+.daily .daily-left :is(h3, .HyperMD-header.HyperMD-header-3),
+.daily .daily-left :is(h4, .HyperMD-header.HyperMD-header-4) {
+  text-align: left;
+}
+
+.daily .daily-left p,
+.daily .daily-right p {
+  width: 100%;
+}
+
+@media (max-width: 900px) {
+  .daily .daily-layout {
+    flex-direction: column;
+  }
+
+  .daily .daily-left,
+  .daily .daily-right {
+    flex: 1 1 100%;
+    width: 100%;
+  }
+
+  .daily .daily-right {
+    justify-content: flex-start;
+  }
+}
+

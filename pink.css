@@ -1,0 +1,79 @@
+:root {
+  --highlightPink: #ffffff;
+  --primaryPink: #ff51bf;
+  --darkPink: #090306;
+}
+
+.pink {
+  --dark: var(--darkPink);
+  color: var(--highlightPink);
+  background-color: var(--darkPink);
+  --text-normal: var(--highlightPink);
+  --text-muted: var(--highlightPink);
+  --text-faint: var(--highlightPink);
+  --checklist-done-color: var(--highlightPink);
+  --metadata-label-text-color: var(--highlightPink);
+  --metadata-input-text-color: var(--highlightPink);
+  --tag-color: var(--darkPink);
+  --tag-background: var(--primaryPink);
+  --hr-color: var(--primaryPink);
+  --blockquote-border-color: var(--primaryPink);
+  --interactive-accent: var(--primaryPink);
+  --collapse-icon-color-collapsed: var(--primaryPink);
+  --checkbox-color: var(--primaryPink);
+  --checkbox-marker-color: var(--darkPink);
+  --checkbox-color-hover: var(--highlightPink);
+  --checkbox-border-color: var(--highlightPink);
+  --list-marker-color: var(--highlightPink);
+  --code-background: black;
+  --code-normal: var(--primaryPink);
+  --link-decoration: none;
+  --link-decoration-hover: none;
+
+  --background-modifier-border-focus: var(--primaryPink);
+  --background-modifier-border: color-mix(in srgb, var(--highlightPink) 60%, transparent);
+  --background-modifier-hover: color-mix(in srgb, var(--highlightPink) 60%, transparent);
+  --pill-cover-hover: color-mix(in srgb, var(--highlightPink) 60%, transparent);
+}
+
+.pink :is(h1, .HyperMD-header.HyperMD-header-1) {
+  color: var(--primaryPink);
+  text-align: center;
+  font-size: 50px;
+  font-family: "Bai Jamjuree", "JetBrainsMono Nerd Font Mono", "JetBrains Mono";
+  padding: 0 !important;
+}
+
+.pink :is(h2, .HyperMD-header.HyperMD-header-2) {
+  color: var(--primaryPink);
+  font-size: 40px;
+  text-align: center;
+  font-family: "Bai Jamjuree", "JetBrainsMono Nerd Font Mono", "JetBrains Mono";
+}
+
+.pink :is(h3, .HyperMD-header.HyperMD-header-3) {
+  color: var(--primaryPink);
+  font-size: 30px;
+  text-align: center;
+  font-family: "Bai Jamjuree", "JetBrainsMono Nerd Font Mono", "JetBrains Mono";
+}
+
+.pink :is(h4, .HyperMD-header.HyperMD-header-4) {
+  font-size: 25px;
+  text-align: center;
+  font-family: "Bai Jamjuree", "JetBrainsMono Nerd Font Mono", "JetBrains Mono";
+}
+
+.pink :is(h5, .HyperMD-header.HyperMD-header-5) {
+  font-size: 20px;
+  text-align: center;
+  font-family: "Bai Jamjuree", "JetBrainsMono Nerd Font Mono", "JetBrains Mono";
+}
+
+.pink :is(a:link, .cm-hmd-internal-link) {
+  color: var(--primaryPink);
+}
+
+.pink :is(a:link:hover, .cm-hmd-internal-link:hover) {
+  color: var(--primaryPink);
+}

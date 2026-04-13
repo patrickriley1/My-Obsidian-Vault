@@ -1,0 +1,79 @@
+:root {
+    --dark: #000000;
+    --bg: #ffeece;  
+}
+
+.topographical {
+    background-color: var(--bg);
+    background-image: url("https://www.old-maps.com/md/USGS/AnneArundelCo_1894_usgs_web.jpg");    
+    background-size: 125%;
+    background-position-x: 15%;
+    background-position-y: 5%;
+    background-repeat: no-repeat;
+    color: var(--dark) !important;
+    caret-color: black !important;
+    position: relative;
+    z-index: 0;
+}
+
+.topographical * {
+    color: #000000 !important;
+}
+
+
+.topographical::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(255, 238, 206, 0.8); /* matches your bg color */
+    z-index: -1;    
+}
+
+.topographical :is(h1, .HyperMD-header.HyperMD-header-1) {
+  color: var(--primarytopographical);
+  text-align: center;
+  font-size: 50px;
+  font-family: "Bai Jamjuree", "JetBrainsMono Nerd Font Mono", "JetBrains Mono";
+  padding: 0 !important;
+}
+
+.topographical :is(h2, .HyperMD-header.HyperMD-header-2) {
+  color: var(--primarytopographical);
+  font-size: 40px;
+  text-align: center;
+  font-family: "Bai Jamjuree", "JetBrainsMono Nerd Font Mono", "JetBrains Mono";
+}
+
+.topographical :is(h3, .HyperMD-header.HyperMD-header-3) {
+  color: var(--primarytopographical);
+  font-size: 30px;
+  text-align: center;
+  font-family: "Bai Jamjuree", "JetBrainsMono Nerd Font Mono", "JetBrains Mono";
+}
+
+.topographical :is(h4, .HyperMD-header.HyperMD-header-4) {
+  font-size: 25px;
+  text-align: center;
+  font-family: "Bai Jamjuree", "JetBrainsMono Nerd Font Mono", "JetBrains Mono";
+}
+
+.topographical :is(h5, .HyperMD-header.HyperMD-header-5) {
+  font-size: 20px;
+  text-align: center;
+  font-family: "Bai Jamjuree", "JetBrainsMono Nerd Font Mono", "JetBrains Mono";
+}
+
+.topographical :is(a:link, .cm-hmd-internal-link) {
+  color: var(--primarytopographical);
+}
+
+.topographical :is(a:link:hover, .cm-hmd-internal-link:hover) {
+  color: var(--primarytopographical);
+}
+
+.topographical .cm-content,
+.topographical .cm-editor,
+.topographical .markdown-source-view,
+.topographical .markdown-preview-view {
+    caret-color: black !important;
+}
