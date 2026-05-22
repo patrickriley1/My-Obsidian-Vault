@@ -13,7 +13,7 @@
   --checklist-done-color: var(--primaryNote);
   --metadata-label-text-color: var(--primaryNote);
   --metadata-input-text-color: var(--primaryNote);
-  --tag-color: var(--bg);
+  --tag-color: var(--primaryNote);
   --tag-background: var(--primaryNote);
   --hr-color: var(--primaryNote);
   --blockquote-border-color: var(--primaryNote);
@@ -24,7 +24,7 @@
   --checkbox-color-hover: var(--primaryNote);
   --checkbox-border-color: var(--primaryNote);
   --list-marker-color: var(--primaryNote);
-  --code-background: black;
+  --code-background: var(--bg);
   --code-normal: var(--primaryNote);
   --link-decoration: none;
   --link-decoration-hover: none;
@@ -70,7 +70,7 @@
 }
 
 .notebook :is(a:link, .cm-hmd-internal-link) {
-  color: var(--primaryNote);
+  color: var(--primaryNote) !important;
 }
 
 .notebook :is(a:link:hover, .cm-hmd-internal-link:hover) {

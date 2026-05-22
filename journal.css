@@ -1,8 +1,8 @@
 :root {
   --highlight: #ffffff;
-  --primary: #9266ff;
+  --primary: #e2ffc0;
   --dark: #06040e;
-  --darkAlt: #160c25;
+  --darkAlt: #0b0b0b;
 }
 
 .daily {
@@ -39,39 +39,39 @@
 
 
 .sunday, .Sunday {
-  --highlight: #f39caa;
+  --highlight: #fff3f5;
   --primary: #f6466f;
-  --dark: #2d0916;
+  --dark: #000000;
 }
 .monday, .Monday {
   --highlight: #fcadaa;
   --primary: #f65848;
-  --dark: #3c0e0b;
+  --dark: #000000;
 }
 .tuesday, .Tuesday {
   --highlight: #aedbfa;
   --primary: #3b87f0;
-  --dark: #070615;
+  --dark: #000000;
 }
 .wednesday, .Wednesday {
-  --highlight: #fff3c4;
-  --primary: #ffd63d;
-  --dark: #2c1404;
+  --highlight: #ffffff;
+  --primary: #ffe482;
+  --dark: #000000;
 }
 .thursday, .Thursday {
-  --highlight: #f7b79b;
-  --primary: #ed6022;
-  --dark: #210b04;
+  --highlight: #ffffff;
+  --primary: #bcd2ff;
+  --dark: #000000;
 }
 .friday, .Friday {
-  --highlight: #e9f9b7;
-  --primary: #92e649;
-  --dark: #192108;
+  --highlight: #ffffff;
+  --primary: #ffffff;
+  --dark: #000000;
 }
 .saturday, .Saturday{
-  --highlight: #f39caa;
-  --primary: #e22c3c;
-  --dark: #100305;
+  --highlight: #fffaf8;
+  --primary: #e25a2c;
+  --dark: #000000;
 }
 
 .daily :is(h1, .HyperMD-header.HyperMD-header-1) {
