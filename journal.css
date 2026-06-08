@@ -1,6 +1,6 @@
 :root {
-  --highlight: #ffffff;
-  --primary: #e2ffc0;
+  --highlight: #1a1a1a;
+  --primary: #4a8a00;
   --dark: #06040e;
   --darkAlt: #0b0b0b;
 }
@@ -38,38 +38,38 @@
 
 
 .sunday, .Sunday {
-  --highlight: #fff3f5;
-  --primary: #f6466f;
+  --highlight: #3d0014;
+  --primary: #c73055;
   --dark: #000000;
 }
 .monday, .Monday {
-  --highlight: #fcadaa;
-  --primary: #f65848;
+  --highlight: #3d0a0a;
+  --primary: #c43020;
   --dark: #000000;
 }
 .tuesday, .Tuesday {
-  --highlight: #aedbfa;
-  --primary: #3b87f0;
+  --highlight: #0a1a3d;
+  --primary: #1d62d4;
   --dark: #000000;
 }
 .wednesday, .Wednesday {
-  --highlight: #ffffff;
-  --primary: #ffe482;
+  --highlight: #1a1a00;
+  --primary: #8c7200;
   --dark: #000000;
 }
 .thursday, .Thursday {
-  --highlight: #ffffff;
-  --primary: #bcd2ff;
+  --highlight: #0a0a3d;
+  --primary: #2255c8;
   --dark: #000000;
 }
 .friday, .Friday {
-  --highlight: #ffffff;
-  --primary: #ffffff;
+  --highlight: #1a1a1a;
+  --primary: #666666;
   --dark: #000000;
 }
 .saturday, .Saturday{
-  --highlight: #fffaf8;
-  --primary: #e25a2c;
+  --highlight: #2e1a0a;
+  --primary: #b53d18;
   --dark: #000000;
 }
 
