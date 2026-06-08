@@ -7,7 +7,6 @@
 .purple {
   --dark: var(--darkPur);
   color: var(--highlightPur);
-  background-color: var(--darkPur);
   --text-normal: var(--highlightPur);
   --text-muted: var(--highlightPur);
   --text-faint: var(--highlightPur);

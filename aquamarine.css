@@ -7,7 +7,6 @@
 .aquamarine {
   --dark: var(--darkAqm);
   color: var(--highlightAqm);
-  background-color: var(--darkAqm);
   --text-normal: var(--highlightAqm);
   --text-muted: var(--highlightAqm);
   --text-faint: var(--highlightAqm);

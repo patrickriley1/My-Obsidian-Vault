@@ -7,7 +7,6 @@
 .orange {
   --dark: var(--darkOrg);
   color: var(--highlightOrg);
-  background-color: var(--darkOrg);
   --text-normal: var(--highlightOrg);
   --text-muted: var(--highlightOrg);
   --text-faint: var(--highlightOrg);

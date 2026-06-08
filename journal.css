@@ -8,7 +8,6 @@
 .daily {
   --dark: var(--dark);
   color: var(--highlight);
-  background-color: var(--dark);
   --text-normal: var(--highlight);
   --text-muted: var(--highlight);
   --text-faint: var(--highlight);

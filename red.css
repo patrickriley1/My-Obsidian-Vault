@@ -7,7 +7,6 @@
 .red {
   --dark: var(--darkRed);
   color: var(--highlightRed);
-  background-color: var(--darkRed);
   --text-normal: var(--highlightRed);
   --text-muted: var(--highlightRed);
   --text-faint: var(--highlightRed);

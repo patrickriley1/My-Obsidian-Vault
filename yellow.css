@@ -7,7 +7,6 @@
 .yellow {
   --dark: var(--darkYel);
   color: var(--highlightYel);
-  background-color: var(--darkYel);
   --text-normal: var(--highlightYel);
   --text-muted: var(--highlightYel);
   --text-faint: var(--highlightYel);

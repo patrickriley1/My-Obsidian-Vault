@@ -7,7 +7,6 @@
 .pink {
   --dark: var(--darkPink);
   color: var(--highlightPink);
-  background-color: var(--darkPink);
   --text-normal: var(--highlightPink);
   --text-muted: var(--highlightPink);
   --text-faint: var(--highlightPink);

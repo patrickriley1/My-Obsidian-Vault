@@ -7,7 +7,6 @@
 .blue {
   --dark: var(--darkBlu);
   color: var(--highlightBlu);
-  background-color: var(--darkBlu);
   --text-normal: var(--highlightBlu);
   --text-muted: var(--highlightBlu);
   --text-faint: var(--highlightBlu);
