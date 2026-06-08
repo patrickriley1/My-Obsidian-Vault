@@ -1,7 +1,7 @@
 :root {
-  --highlightAqm: #ffffff;
-  --primaryAqm: #7fffd4;
-  --darkAqm: #030909;
+  --highlightAqm: #0a2e28;
+  --primaryAqm: #1a9e78;
+  --darkAqm: #f0fffc;
 }
 
 .aquamarine {
@@ -14,7 +14,7 @@
   --checklist-done-color: var(--highlightAqm);
   --metadata-label-text-color: var(--highlightAqm);
   --metadata-input-text-color: var(--highlightAqm);
-  --tag-color: var(--darkAqm);
+  --tag-color: #ffffff;
   --tag-background: var(--primaryAqm);
   --hr-color: var(--primaryAqm);
   --blockquote-border-color: var(--primaryAqm);
@@ -25,15 +25,15 @@
   --checkbox-color-hover: var(--highlightAqm);
   --checkbox-border-color: var(--highlightAqm);
   --list-marker-color: var(--highlightAqm);
-  --code-background: black;
+  --code-background: #d0f5ec;
   --code-normal: var(--primaryAqm);
   --link-decoration: none;
   --link-decoration-hover: none;
 
   --background-modifier-border-focus: var(--primaryAqm);
-  --background-modifier-border: color-mix(in srgb, var(--highlightAqm) 60%, transparent);
-  --background-modifier-hover: color-mix(in srgb, var(--highlightAqm) 60%, transparent);
-  --pill-cover-hover: color-mix(in srgb, var(--highlightAqm) 60%, transparent);
+  --background-modifier-border: color-mix(in srgb, var(--highlightAqm) 20%, transparent);
+  --background-modifier-hover: color-mix(in srgb, var(--highlightAqm) 10%, transparent);
+  --pill-cover-hover: color-mix(in srgb, var(--highlightAqm) 10%, transparent);
 }
 
 .aquamarine :is(h1, .HyperMD-header.HyperMD-header-1) {

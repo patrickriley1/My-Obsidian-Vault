@@ -1,7 +1,7 @@
 :root {
-  --highlightStd: #ffffff;
-  --primaryStd: #00ba00;
-  --darkStd: #090303;
+  --highlightStd: #0a2e12;
+  --primaryStd: #007a1f;
+  --darkStd: #f0fff4;
 }
 
 .green {
@@ -14,7 +14,7 @@
   --checklist-done-color: var(--highlightStd);
   --metadata-label-text-color: var(--highlightStd);
   --metadata-input-text-color: var(--highlightStd);
-  --tag-color: var(--darkStd);
+  --tag-color: #ffffff;
   --tag-background: var(--primaryStd);
   --hr-color: var(--primaryStd);
   --blockquote-border-color: var(--primaryStd);
@@ -25,15 +25,15 @@
   --checkbox-color-hover: var(--highlightStd);
   --checkbox-border-color: var(--highlightStd);
   --list-marker-color: var(--highlightStd);
-  --code-background: black;
+  --code-background: #d8f5e2;
   --code-normal: var(--primaryStd);
   --link-decoration: none;
   --link-decoration-hover: none;
 
   --background-modifier-border-focus: var(--primaryStd);
-  --background-modifier-border: color-mix(in srgb, var(--highlightStd) 60%, transparent);
-  --background-modifier-hover: color-mix(in srgb, var(--highlightStd) 60%, transparent);
-  --pill-cover-hover: color-mix(in srgb, var(--highlightStd) 60%, transparent);
+  --background-modifier-border: color-mix(in srgb, var(--highlightStd) 20%, transparent);
+  --background-modifier-hover: color-mix(in srgb, var(--highlightStd) 10%, transparent);
+  --pill-cover-hover: color-mix(in srgb, var(--highlightStd) 10%, transparent);
 }
 
 .green :is(h1, .HyperMD-header.HyperMD-header-1) {
@@ -75,6 +75,5 @@
 }
 
 .green :is(a:link:hover, .cm-hmd-internal-link:hover) {
-  color: #cb7c40;
+  color: var(--primaryStd);
 }
-

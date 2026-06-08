@@ -1,0 +1,79 @@
+:root {
+  --highlightPur: #1a0a2e;
+  --primaryPur: #8833e0;
+  --darkPur: #f8f0ff;
+}
+
+.purple {
+  --dark: var(--darkPur);
+  color: var(--highlightPur);
+  background-color: var(--darkPur);
+  --text-normal: var(--highlightPur);
+  --text-muted: var(--highlightPur);
+  --text-faint: var(--highlightPur);
+  --checklist-done-color: var(--highlightPur);
+  --metadata-label-text-color: var(--highlightPur);
+  --metadata-input-text-color: var(--highlightPur);
+  --tag-color: #ffffff;
+  --tag-background: var(--primaryPur);
+  --hr-color: var(--primaryPur);
+  --blockquote-border-color: var(--primaryPur);
+  --interactive-accent: var(--primaryPur);
+  --collapse-icon-color-collapsed: var(--primaryPur);
+  --checkbox-color: var(--primaryPur);
+  --checkbox-marker-color: var(--darkPur);
+  --checkbox-color-hover: var(--highlightPur);
+  --checkbox-border-color: var(--highlightPur);
+  --list-marker-color: var(--highlightPur);
+  --code-background: #eedeff;
+  --code-normal: var(--primaryPur);
+  --link-decoration: none;
+  --link-decoration-hover: none;
+
+  --background-modifier-border-focus: var(--primaryPur);
+  --background-modifier-border: color-mix(in srgb, var(--highlightPur) 20%, transparent);
+  --background-modifier-hover: color-mix(in srgb, var(--highlightPur) 10%, transparent);
+  --pill-cover-hover: color-mix(in srgb, var(--highlightPur) 10%, transparent);
+}
+
+.purple :is(h1, .HyperMD-header.HyperMD-header-1) {
+  color: var(--primaryPur);
+  text-align: center;
+  font-size: 50px;
+  font-family: "Bai Jamjuree", "JetBrainsMono Nerd Font Mono", "JetBrains Mono";
+  padding: 0 !important;
+}
+
+.purple :is(h2, .HyperMD-header.HyperMD-header-2) {
+  color: var(--primaryPur);
+  font-size: 40px;
+  text-align: center;
+  font-family: "Bai Jamjuree", "JetBrainsMono Nerd Font Mono", "JetBrains Mono";
+}
+
+.purple :is(h3, .HyperMD-header.HyperMD-header-3) {
+  color: var(--primaryPur);
+  font-size: 30px;
+  text-align: center;
+  font-family: "Bai Jamjuree", "JetBrainsMono Nerd Font Mono", "JetBrains Mono";
+}
+
+.purple :is(h4, .HyperMD-header.HyperMD-header-4) {
+  font-size: 25px;
+  text-align: center;
+  font-family: "Bai Jamjuree", "JetBrainsMono Nerd Font Mono", "JetBrains Mono";
+}
+
+.purple :is(h5, .HyperMD-header.HyperMD-header-5) {
+  font-size: 20px;
+  text-align: center;
+  font-family: "Bai Jamjuree", "JetBrainsMono Nerd Font Mono", "JetBrains Mono";
+}
+
+.purple :is(a:link, .cm-hmd-internal-link) {
+  color: var(--primaryPur);
+}
+
+.purple :is(a:link:hover, .cm-hmd-internal-link:hover) {
+  color: var(--primaryPur);
+}

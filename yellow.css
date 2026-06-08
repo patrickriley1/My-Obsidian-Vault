@@ -1,7 +1,7 @@
 :root {
-  --highlightYel: #ffffff;
-  --primaryYel: #ffd700;
-  --darkYel: #090903;
+  --highlightYel: #2e2a0a;
+  --primaryYel: #b08000;
+  --darkYel: #fffdf0;
 }
 
 .yellow {
@@ -14,7 +14,7 @@
   --checklist-done-color: var(--highlightYel);
   --metadata-label-text-color: var(--highlightYel);
   --metadata-input-text-color: var(--highlightYel);
-  --tag-color: var(--darkYel);
+  --tag-color: #ffffff;
   --tag-background: var(--primaryYel);
   --hr-color: var(--primaryYel);
   --blockquote-border-color: var(--primaryYel);
@@ -25,15 +25,15 @@
   --checkbox-color-hover: var(--highlightYel);
   --checkbox-border-color: var(--highlightYel);
   --list-marker-color: var(--highlightYel);
-  --code-background: black;
+  --code-background: #fdf5c8;
   --code-normal: var(--primaryYel);
   --link-decoration: none;
   --link-decoration-hover: none;
 
   --background-modifier-border-focus: var(--primaryYel);
-  --background-modifier-border: color-mix(in srgb, var(--highlightYel) 60%, transparent);
-  --background-modifier-hover: color-mix(in srgb, var(--highlightYel) 60%, transparent);
-  --pill-cover-hover: color-mix(in srgb, var(--highlightYel) 60%, transparent);
+  --background-modifier-border: color-mix(in srgb, var(--highlightYel) 20%, transparent);
+  --background-modifier-hover: color-mix(in srgb, var(--highlightYel) 10%, transparent);
+  --pill-cover-hover: color-mix(in srgb, var(--highlightYel) 10%, transparent);
 }
 
 .yellow :is(h1, .HyperMD-header.HyperMD-header-1) {
