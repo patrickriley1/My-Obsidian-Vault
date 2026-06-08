@@ -39,7 +39,7 @@
 
 .sunday, .Sunday {
   --highlight: #3d0014;
-  --primary: #c73055;
+  --primary: #b07507;
   --dark: #000000;
 }
 .monday, .Monday {
@@ -49,27 +49,27 @@
 }
 .tuesday, .Tuesday {
   --highlight: #0a1a3d;
-  --primary: #1d62d4;
+  --primary: #ab4c04;
   --dark: #000000;
 }
 .wednesday, .Wednesday {
   --highlight: #1a1a00;
-  --primary: #8c7200;
+  --primary: #8c5900;
   --dark: #000000;
 }
 .thursday, .Thursday {
   --highlight: #0a0a3d;
-  --primary: #2255c8;
+  --primary: #a10736;
   --dark: #000000;
 }
 .friday, .Friday {
   --highlight: #1a1a1a;
-  --primary: #666666;
+  --primary: #ab112b;
   --dark: #000000;
 }
 .saturday, .Saturday{
   --highlight: #2e1a0a;
-  --primary: #b53d18;
+  --primary: #be6200;
   --dark: #000000;
 }
 
